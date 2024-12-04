@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/btn_1"
+        android:title="Домой"
+        app:cnb_backgroundColor="@color/white"
+        app:cnb_iconColor="@color/red"/>
+
+    <item
+        android:id="@+id/favorites"
+        android:icon="@drawable/btn_2"
+        android:title="Любимые"
+        app:cnb_backgroundColor="@color/white"
+        app:cnb_iconColor="@color/red"/>
+
+    <item
+        android:id="@+id/cart"
+        android:icon="@drawable/btn_3"
+        android:title="Корзина"
+        app:cnb_backgroundColor="@color/white"
+        app:cnb_iconColor="@color/red"/>
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/btn_4"
+        android:title="Профиль"
+        app:cnb_backgroundColor="@color/white"
+        app:cnb_iconColor="@color/red"/>
+
+
+
+
+</menu>

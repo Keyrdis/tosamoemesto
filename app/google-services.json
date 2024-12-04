@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "480223305933",
+    "project_id": "tosamoemesto-80c75",
+    "storage_bucket": "tosamoemesto-80c75.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:480223305933:android:5b70380699a44c9cc68984",
+        "android_client_info": {
+          "package_name": "com.example.tosamoemesto"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqyDjVuLdA3ABbd0vFms5o_eetPZBJ3Kk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

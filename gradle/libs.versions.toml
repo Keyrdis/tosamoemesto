@@ -1,0 +1,56 @@
+[versions]
+agp = "8.4.2"
+kotlin = "1.9.0"
+coreKtx = "1.10.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.6.0"
+material = "1.8.0"
+activity = "1.9.3"
+constraintlayout = "2.1.4"
+glide = "4.12.0"
+gson = "2.10.1"
+annotation = "1.9.1"
+lifecycleLivedataKtx = "2.8.7"
+lifecycleViewmodelKtx = "2.8.7"
+compiler = "4.12.0"
+androidxKtx = "1.6.1"
+cardview = "1.0.0"
+auth = "23.1.0"
+activityVersion = "1.9.3"
+chipnavigationbar= "1.4.0"
+jitpack = "1.0"
+firebaseDatabaseKtx = "21.0.0"
+googleGmsGoogleServices = "4.4.2"
+firebaseDatabase = "21.0.0"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
+glidecompiler = { group = "com.github.bumptech.glide", name = "compiler", version.ref = "compiler" }
+gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
+androidx-annotation = { group = "androidx.annotation", name = "annotation", version.ref = "annotation" }
+androidx-lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycleLivedataKtx" }
+androidx-lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-activity = { group = "androidx.activity", name = "activity-ktx", version.ref = "activity" }
+cardview = { group = "androidx.cardview", name = "cardview", version.ref = "cardview" }
+auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "auth" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activityVersion" }
+chipnavigationbar = { group = "com.github.ismaeldivita", name = "chip-navigation-bar", version.ref = "chipnavigationbar" }
+jitpack = { group = "com.github.jitpack", name = "gradle-simple", version.ref = "jitpack" }
+firebase-database-ktx = { group = "com.google.firebase", name = "firebase-database-ktx", version.ref = "firebaseDatabaseKtx" }
+firebase-database = { group = "com.google.firebase", name = "firebase-database", version.ref = "firebaseDatabase" }
+
+
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+google-gms-google-services = { id = "com.google.gms.google-services", version.ref = "googleGmsGoogleServices" }
